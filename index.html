@@ -2,6 +2,27 @@
 <html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
+    // Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyCC_okuMnxc0Y9ktU_RIDT8ji3W17WwjG4",
+  authDomain: "hira-cbbbd.firebaseapp.com",
+  projectId: "hira-cbbbd",
+  storageBucket: "hira-cbbbd.firebasestorage.app",
+  messagingSenderId: "840369458443",
+  appId: "1:840369458443:web:c7e11678db6071cb45a60e",
+  measurementId: "G-TZQ78K3499"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="Q0VWL9GZjdRWzd_MU4jsKp2hs7y_B12ML-dj0XYWU8I" />
     <title>Hira Beacon — Journal of Academic & Creative Inquiry</title>
