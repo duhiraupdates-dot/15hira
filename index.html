@@ -2,9 +2,8 @@
 <html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
-    
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="Q0VWL9GZjdRWzd_MU4jsKp2hs7y_B12ML-dj0XYWU8I" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta name="google-site-verification" content="Q0VWL9GZjdRWzd_MU4jsKp2hs7y_B12ML-dj0XYWU8I" />
     <title>Hira Beacon — Journal of Academic & Creative Inquiry</title>
     
     <!-- Tailwind CSS CDN -->
@@ -863,7 +862,8 @@
 
         // Dynamic asymmetric initial data sets
         const SEED_POSTS = [
-            id: "1",
+            {
+                id: "1",
                 title: "Contemplating the Silence: Epistemic Solitude and the Mind",
                 author: "Dr. Arthur Vance",
                 category: "Academic Studies",
@@ -952,8 +952,6 @@
                 featured: false,
                 image: ""
             }
-            {
-               
         ];
 
         let posts = [];
